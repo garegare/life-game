@@ -1,0 +1,16 @@
+.main-board-table {
+  border: 1px black solid;
+  border-collapse: collapse;
+  td {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+.black-cell {
+  background-color: black !important;
+}
+
+.white-cell {
+  background-color: white;
+}

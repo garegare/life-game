@@ -1,0 +1,9 @@
+<p>This is Life game</p>
+<table class="main-board-table">
+  <tbody>
+    <tr *ngFor="let row of board.cells" class="main-board-table">
+      <td *ngFor="let cell of row" class="main-board-table white-cell" [class.black-cell]="cell.isLiving()">
+      </td>
+    </tr>
+  </tbody>
+</table>
